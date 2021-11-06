@@ -1,0 +1,16 @@
+{
+  "extensionName": {
+    "message": "TORI Development tool"
+  },
+  "extensionDescription": {
+    "message": "Удобная разработка TORI"
+  },
+  "buttonPersonFormer": {
+    "message": "Экс-сотрудник $company$",
+    "placeholders": {
+      "company": {
+        "content": "$1"
+      }
+    }
+  }
+}

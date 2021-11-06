@@ -1,0 +1,10 @@
+#container {
+    min-width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 48px;
+    margin-block-start: 1em;
+}
