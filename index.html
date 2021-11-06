@@ -6,18 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
+
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="welcome">
       <div class="container">
         <nav class="header__nav">
           <a href="#" class="header__logo">
@@ -28,11 +24,11 @@
             /><span>Louvre</span>
           </a>
           <ul class="header__list">
-            <li class="header__item"><a href="#">Visiting</a></li>
-            <li class="header__item"><a href="#">Explore</a></li>
-            <li class="header__item"><a href="#">Video</a></li>
-            <li class="header__item"><a href="#">Tickets</a></li>
-            <li class="header__item"><a href="#">Contacts</a></li>
+            <li class="header__item"><a href="index.html#tour">Visiting</a></li>
+            <li class="header__item"><a href="index.html#explore">Explore</a></li>
+            <li class="header__item"><a href="index.html#video">Video</a></li>
+            <li class="header__item"><a href="index.html#buy">Tickets</a></li>
+            <li class="header__item"><a href="index.html#contacts">Contacts</a></li>
           </ul>
         </nav>
         <div class="header__main">
@@ -50,7 +46,7 @@
         </div>
       </div>
     </header>
-    <section class="tour">
+    <section class="tour" id="tour">
       <div class="container">
         <h2 class="tour__title">Virtual tour</h2>
         <div class="tour__gallery">
@@ -105,7 +101,7 @@
         </div>
       </div>
     </section>
-    <section class="explore">
+    <section class="explore" id="explore">
       <div class="container">
         <div class="explore__inner">
           <div class="explore__text">
@@ -131,7 +127,7 @@
         </div>
       </div>
     </section>
-    <section class="video">
+    <section class="video" id="video">
       <div class="container">
         <div class="video__inner">
           <video
@@ -154,7 +150,7 @@
         </div>
       </div>
     </section>
-    <section class="buy">
+    <section class="buy" id="buy">
       <div class="container">
         <div class="buy__inner">
           <h2 class="buy__title">Buy tickets</h2>
@@ -209,7 +205,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <h2 class="contacts__title">Contacts</h2>
         <div class="contacts__main">
@@ -239,12 +235,12 @@
           </div>
           <nav class="footer__nav">
             <ul class="footer__list">
-              <li class="footer__item"><a href="#">Welcome</a></li>
-              <li class="footer__item"><a href="#">Visiting</a></li>
-              <li class="footer__item"><a href="#">Explore</a></li>
-              <li class="footer__item"><a href="#">Video</a></li>
-              <li class="footer__item"><a href="#">Tickets</a></li>
-              <li class="footer__item"><a href="#">Contacts</a></li>
+              <li class="footer__item"><a href="index.html#welcome">Welcome</a></li>
+              <li class="footer__item"><a href="index.html#tour">Visiting</a></li>
+              <li class="footer__item"><a href="index.html#explore">Explore</a></li>
+              <li class="footer__item"><a href="index.html#video">Video</a></li>
+              <li class="footer__item"><a href="index.html#buy">Tickets</a></li>
+              <li class="footer__item"><a href="index.html#contacts">Contacts</a></li>
             </ul>
           </nav>
           <div class="footer__social">
@@ -269,10 +265,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

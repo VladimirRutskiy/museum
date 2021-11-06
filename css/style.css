@@ -3,6 +3,9 @@
 *::before {
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -272,8 +275,6 @@ li{
   width: 660px;
   margin-left: 60px;
 }
-.ticket-form__type {
-}
 .item-radio {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -335,9 +336,6 @@ li{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.ticket-form__amount {
 }
 .amount__title {
   font-weight: bold;
@@ -460,8 +458,6 @@ li{
   display: flex;
   justify-content: space-between;
 }
-.contacts__text {
-}
 .text-title {
   font-size: 28px;
   line-height: 33px;
@@ -489,6 +485,7 @@ li{
   display: flex;
   justify-content: space-between;
   padding-top: 75px;
+  padding-bottom: 75px;
 }
 .footer__nav {
   font-family: Roboto;
