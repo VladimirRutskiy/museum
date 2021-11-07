@@ -1,0 +1,79 @@
+@media (max-width: 1500px){
+    .container{
+        padding: 0 40px;
+    }
+    .tour__gallery {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+    .tour__item {
+        min-width: 50%;
+      }
+      .tour__item-img {
+        margin-bottom: 25px;
+      }
+    .tour__item-subtitle {
+        max-width: 100%;
+      }  
+    .explore__text{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 1200px){
+    .explore__title{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1140px){
+    h1, h2{
+      font-size: 60px; 
+      line-height: 70px; 
+    }
+    h3{
+      font-size: 22px;
+      line-height: 26px;  
+    }
+    .explore__subscription,
+    .video__text {
+        font-style: normal;
+        font-size: 18px;
+        line-height: 34px;
+      }
+
+}
+@media (max-width: 1100px){
+    .header__nav-btn{
+      display: block;
+      padding-top: 10px;
+    }
+    .header__list{
+        display: none;
+        position: absolute;
+        top: 120px;
+        width: calc(100% - 80px);
+        background-color: #710707;
+        border-radius: 5px;
+        z-index: 2;
+    }
+    .header__list li{
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer__inner {
+        display: flex;
+        flex-wrap: wrap; 
+      }
+  }
+
+
+
+
+
+@media (min-width: 1100px){
+    .header__list {
+        display: block !important;
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+}
